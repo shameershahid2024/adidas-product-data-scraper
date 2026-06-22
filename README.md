@@ -38,6 +38,16 @@ Examples of extracted fields include:
 - 30+ structured attributes per product
 - CSV export for further analysis
 
+## Dataset Statistics
+
+- Total Products Collected: 1,336
+- Total Attributes: 30+
+- Export Format: CSV
+
+## Sample Dataset Preview
+
+See the screenshots folder for examples of the collected dataset and scraper execution.
+
 ## Technologies Used
 
 - Python
@@ -56,6 +66,8 @@ adidas-product-data-scraper/
 ├── requirements.txt
 ├── README.md
 └── screenshots/
+    ├── dataset_preview.png
+    └── scraper_execution.png
 ```
 
 ## Sample Use Cases
@@ -66,7 +78,28 @@ adidas-product-data-scraper/
 - Inventory monitoring
 - Competitive intelligence
 
+## How To Run
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the scraper:
+
+```bash
+python adidas_scraper.py
+```
+
+3. Output will be saved as:
+
+```text
+adidas_products.csv
+```
+
 ## Author
 
 Shameer Shahid
-Computer Science Student
+
+Computer Science Student focused on Web Scraping, Data Extraction, Automation, and API-Based Data Collection.
